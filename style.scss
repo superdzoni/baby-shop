@@ -1,0 +1,105 @@
+/* Variables */
+
+$color-one: #C8B5A4;
+$color-two: #e8e0d9;
+$font: 'Raleway', sans-serif;
+
+body {
+    font-family: $font;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: $color-one;
+}
+
+.navbar-nav {
+    background-color: inherit;
+}
+
+.dropdown-menu {
+    background-color: inherit;
+    border: none;
+}
+
+/* Carousel */
+
+.carousel-inner .carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    left: 50%;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+/* Info */
+
+.info {
+    background: $color-two;
+}
+
+.info .card {
+    background: inherit;
+    border-color: $color-two;
+
+}
+
+.social-icon i {
+    font-size: 16px;
+    color: #000000;
+}
+
+.social-icon li {
+    font-size: 0;
+}
+
+/* Buttons */
+
+.btn {
+    background-color: $color-one;
+    border: none;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: $color-two;
+}
+
+.info a,
+footer a {
+    color: #000000;
+}
+
+/* Footer */
+
+footer {
+    background: $color-one;
+}
+
+/* Body */
+
+.light-text {
+    color: #ffffff;
+}
+
+.dark-text {
+    color: #000000;
+}

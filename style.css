@@ -1,0 +1,75 @@
+/* Variables */
+body {
+  font-family: "Raleway", sans-serif; }
+
+/* Navbar */
+.navbar {
+  background-color: #C8B5A4; }
+
+.navbar-nav {
+  background-color: inherit; }
+
+.dropdown-menu {
+  background-color: inherit;
+  border: none; }
+
+/* Carousel */
+.carousel-inner .carousel-item {
+  height: 100vh; }
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover; }
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; }
+
+.carousel-caption {
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  transform: translate(-50%, -50%); }
+
+/* Info */
+.info {
+  background: #e8e0d9; }
+
+.info .card {
+  background: inherit;
+  border-color: #e8e0d9; }
+
+.social-icon i {
+  font-size: 16px;
+  color: #000000; }
+
+.social-icon li {
+  font-size: 0; }
+
+/* Buttons */
+.btn {
+  background-color: #C8B5A4;
+  border: none;
+  color: #ffffff; }
+
+.btn:hover {
+  background-color: #e8e0d9; }
+
+.info a,
+footer a {
+  color: #000000; }
+
+/* Footer */
+footer {
+  background: #C8B5A4; }
+
+/* Body */
+.light-text {
+  color: #ffffff; }
+
+.dark-text {
+  color: #000000; }
